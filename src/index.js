@@ -16,6 +16,8 @@ serviceWorker.unregister();
 
 // comment 2 added
 
+// comment 3 added
+
 if (module.hot) {
   module.hot.accept('./App', () => {
     const NextApp = require('./App').default
